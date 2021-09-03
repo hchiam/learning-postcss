@@ -1,0 +1,9 @@
+.outer [dir="ltr"] .inner-nested {
+  margin-left: 1rem;
+}
+.outer [dir="rtl"] .inner-nested {
+  margin-right: 1rem;
+}
+.outer .inner-nested {
+  margin-top: 1rem;
+}

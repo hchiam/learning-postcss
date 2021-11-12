@@ -5,6 +5,7 @@ module.exports = {
     require("postcss-nested"),
     require("postcss-mixins"),
     require("postcss-preset-env"),
+    require("postcss-coglang-stylesheets"),
     require("autoprefixer"),
     // require("stylelint"),
     require("postcss-reporter"),

@@ -17,3 +17,7 @@
     animation-name: dissolve;
   }
 }
+a {
+  left: 1rem;
+  right: 2.5rem;
+}

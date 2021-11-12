@@ -57,6 +57,8 @@ npm run build
 # input.css --> output.css
 ```
 
+I would _NOT_ recommend the `postcss-coglang-stylesheets` dev dep for real projects - it's just an example of a custom PostCSS plugin.
+
 ## Fun
 
 You can [write your own PostCSS plugin](https://github.com/postcss/postcss/blob/main/docs/writing-a-plugin.md):

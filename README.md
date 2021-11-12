@@ -56,3 +56,7 @@ git clone https://github.com/hchiam/learning-postcss.git && cd learning-postcss 
 npm run build
 # input.css --> output.css
 ```
+
+## Fun
+
+Write CSS in a language other than English, and have PostCSS transform it into runnable CSS: <https://github.com/ismamz/postcss-spanish-stylesheets>

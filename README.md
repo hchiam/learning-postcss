@@ -2,7 +2,7 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
-You can make CSS run fast for users, while also letting yourself write modern CSS, all without having to think about (but still shipping) things like compatibility for browser vendor prefixes and support for older browsers. PostCSS does both post-processing and pre-processing of CSS, all customizable with your choice of plugins (in postcss.config.js).
+You can make CSS run fast for users, while also letting yourself write modern CSS, all without having to think about (but still shipping) things like compatibility for browser vendor prefixes and support for older browsers. PostCSS does both post-processing and pre-processing of CSS, all customizable with your choice of plugins (in postcss.config.js). The difference with things like SASS, is that PostCSS plugins let you choose which features you want, e.g. adding partials and nesting but with the choice of not having SASS loops enabled, etc.
 
 https://www.youtube.com/watch?v=WhCXiEwdU1A
 
@@ -11,6 +11,10 @@ https://postcss.org
 https://github.com/postcss/postcss#usage
 
 https://www.sitepoint.com/an-introduction-to-postcss
+
+Use the `--no-map` option for production-deployment-ready CSS.
+
+Use the `--watch` option to auto-build upon change. (Ctrl+C or Cmd+C to stop the running CLI command.)
 
 ## From scratch
 

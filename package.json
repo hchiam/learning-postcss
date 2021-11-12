@@ -3,7 +3,7 @@
   "license": "MIT",
   "scripts": {
     "test": "jest --bail --findRelatedTests **/*.js",
-    "build": "postcss input.css -o output.css",
+    "build": "postcss input.css -o output.css --watch",
     "lint": "prettier --write *.{js,css,html,scss,json,md,ts,tsx}",
     "es-check": "es-check es5 './**/*.js' --not=node_modules"
   },

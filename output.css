@@ -7,3 +7,13 @@
 .outer .inner-nested {
   margin-top: 1rem;
 }
+.animation {
+  -webkit-animation: pulse 1s linear infinite both;
+  animation: pulse 1s linear infinite both;
+}
+@media (prefers-reduced-motion) {
+  .animation {
+    -webkit-animation-name: dissolve;
+    animation-name: dissolve;
+  }
+}

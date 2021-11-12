@@ -4,3 +4,14 @@
     margin-inline-start: 1rem;
   }
 }
+
+.animation {
+  animation: pulse 1s linear infinite both;
+}
+
+/* Tone down animation to avoid vestibular motion triggers like scaling/panning large objects. */
+@media (prefers-reduced-motion) {
+  .animation {
+    animation-name: dissolve;
+  }
+}

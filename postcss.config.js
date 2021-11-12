@@ -1,3 +1,5 @@
+// many more options are available, like making this a function with dev-mode check
+
 module.exports = {
   plugins: [
     require("postcss-nested"),
